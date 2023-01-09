@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+   
+}
+/* nav bar */
+.navbar {
+    background-color: rgb(72, 167, 135);
+   
+    padding: 5px 20px;
+}
+.navbar  img{
+    width: 75px;
+}
+.navbar .navbar-brand{
+    margin-right: 150px;
+}
+ .navbar .collapse ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 2rem;
+    width: 80%;
+    
+ }
+ .navbar .collapse ul li:hover{
+   background-color: blueviolet;
+   border-radius: 6px;
+   border-bottom: 1px solid green;
+   transition: .5s;
+   transform: scale(1.2);
+ }
+ .navbar .collapse ul li a{
+    color: aliceblue;
+ }
+ /* end nav bar */
+ /* main content */
+ .main-content{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(150, 221, 148);
+    position: relative;
+    padding: 10px 50px;
+ }
+ .main-content .float-intro{
+    position: absolute;
+    top: 170px;
+    right: 100px;
+ }
+ .main-content .float-intro p{
+    font-size: 1.5rem;
+    color: rgb(13, 17, 20);
+    font-weight: 700;
+    text-align: end;
+    line-height: 3rem;
+ }
+
+ /* end main content */
+ /* main footer */
+ footer{
+    width: 100%;
+    background-color: blue;
+    height: 165px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ footer .right {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+ }
+ footer .right p{
+    font-size: 1.5rem;
+ }
+ footer  .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+ }
+ footer  .left p{
+    font-size: 1.5rem;
+    margin-left: 5px;
+ }
+ footer  .left .icn{
+    font-size: 3rem;
+ }
+ 
+ /* end main footer */
+ /* who us */
+ .who-us-content{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(216, 209, 223);
+    position: relative;
+    padding: 10px 50px;
+    direction: rtl;
+    padding: 50px 50px;
+ }
+ .who-us-content h1{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    color: rgb(175, 111, 27);
+    font-weight: bolder;
+    font-family: system-ui;
+    text-align: center;
+
+ }
+ .who-us-content p{
+    font-size: 2.5rem;
+ }
+ .who-us-content ul {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(56, 47, 47);
+ }
+ /* end who us */
+ /* our serv */
+ .our-serv-content{
+    width: 100%;
+    height: 70vh;
+    background-color: blueviolet;
+    position: relative;
+    padding: 10px 50px;
+    direction: rtl;
+    padding: 50px 50px;
+ }
+ .our-serv-content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: chocolate;
+ }
+ .our-serv-content h3{
+    margin-bottom: 2rem;
+    color: blue;
+ }
+ .our-serv-content ul{
+    font-size: 2rem;
+    color: cornsilk;
+
+ }
+ .our-serv-content ul li{
+    margin-bottom: 2rem;
+ }
+ /* end our serv */
+ /* portifolio */
+ .portifolio-content{
+   width: 100%;
+    
+    background-color: blueviolet;
+    position: relative;
+    padding: 10px 50px;
+    direction: rtl;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .portifolio-content .porti-card {
+   flex-basis: 40%;
+   height: 400px;
+   background-color: aqua;
+   transition: .5s;
+ }
+ .portifolio-content .porti-card:hover{
+   transform: scale(1.1);
+ }
+ .portifolio-content .porti-card img{
+   width: 100%;
+   height: 100%;
+    
+ }
+ /* end portifolio */
